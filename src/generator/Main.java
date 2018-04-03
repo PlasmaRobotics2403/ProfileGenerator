@@ -33,11 +33,11 @@ public class Main {
 				new Waypoint(75, -50, 0),
 		};
 		
-		generateTrajectory(waypoints2, "SwitchCenterRight1", false);
-		generateTrajectory(waypoints3, "SwitchCenterRight2", true);
-		generateTrajectory(waypoints1, "SwitchCenterRight3" , false);
-		generateTrajectory(waypoints1, "SwitchCenterRight4" , true);
-		generateTrajectory(waypoints3, "SwitchCenterRight5", false);		
+		generateTrajectory(waypoints2, "CenterSwitchRight1", false);
+		generateTrajectory(waypoints3, "CenterSwitchRight2", true);
+		generateTrajectory(waypoints1, "CenterSwitchRight3" , false);
+		generateTrajectory(waypoints1, "CenterSwitchRight4" , true);
+		generateTrajectory(waypoints3, "CenterSwitchRight5", false);		
 		
 		Waypoint waypoints4[] = new Waypoint[] {
 				new Waypoint(0, 0, 0),
@@ -63,8 +63,7 @@ public class Main {
 		
 		Waypoint waypoint7[] = new Waypoint[] {
 				new Waypoint(0,0,0),
-				new Waypoint(196, 0, 0),
-				new Waypoint(288, -70, 0),
+				new Waypoint(100, 0, 0),
 		};
 		
 		generateTrajectory(waypoint7, "LeftScaleLeft1", false);
