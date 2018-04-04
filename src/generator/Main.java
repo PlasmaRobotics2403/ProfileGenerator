@@ -24,12 +24,12 @@ public class Main {
 		
 		Waypoint waypoints2[] = new Waypoint[] {
 				
-				new Waypoint(0,0,0),
+				new Waypoint(0, 0, 0),
 				new Waypoint(108, -50, 0),
 		};
 		
 		Waypoint waypoints3[] = new Waypoint[] {
-				new Waypoint(0,0,0),
+				new Waypoint(0, 0, 0),
 				new Waypoint(75, -50, 0),
 		};
 		
@@ -46,12 +46,12 @@ public class Main {
 		
 		Waypoint waypoints5[] = new Waypoint[] {
 				
-				new Waypoint(0,0,0),
+				new Waypoint(0, 0, 0),
 				new Waypoint(108, 50, 0),
 		};
 		
 		Waypoint waypoints6[] = new Waypoint[] {
-				new Waypoint(0,0,0),
+				new Waypoint(0, 0, 0),
 				new Waypoint(75, 50, 0),
 		};
 		
@@ -62,12 +62,40 @@ public class Main {
 		generateTrajectory(waypoints6, "CenterSwitchLeft5", false);
 		
 		Waypoint waypoint7[] = new Waypoint[] {
-				new Waypoint(0,0,0),
+				new Waypoint(0, 0, 0),
 				new Waypoint(100, 0, 0),
 		};
 		
-		generateTrajectory(waypoint7, "LeftScaleLeft1", false);
+		Waypoint waypoint8[] = new Waypoint[] {
+				new Waypoint(0, 0, 0),
+				new Waypoint(17, 0, 0),
+		};
 		
+		generateTrajectory(waypoint7, "LeftScaleLeft1", false);
+		generateTrajectory(waypoint8, "LeftScaleLeft2", false);
+		
+		Waypoint waypoint9[] = new Waypoint[] {
+				new Waypoint(0, 0, 0),
+				new Waypoint(100, 0, 0),
+		};
+		
+		Waypoint waypoint10[] = new Waypoint[] {
+				new Waypoint(0, 0, 0),
+				new Waypoint(17, 0, 0),
+		};
+		
+		generateTrajectory(waypoint9, "RightScaleRight1", false);
+		generateTrajectory(waypoint10, "RightScaleRight2", false);
+		
+		Waypoint waypoint11[] = new Waypoint[] {
+				new Waypoint(0,0,0),
+				new Waypoint(150, 0, 0),
+		};
+		
+		generateTrajectory(waypoint11, "CrossBaseline", false);
+		
+		generatePivotTurn("45 Left", 45);
+		generatePivotTurn("45 right",-45);
 		generatePivotTurn("right", -90);
 		generatePivotTurn("left", 90);
 		generatePivotTurn("allLeft", 180);
