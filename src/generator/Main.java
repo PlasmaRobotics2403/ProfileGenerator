@@ -25,7 +25,7 @@ public class Main {
 		Waypoint waypoints2[] = new Waypoint[] {
 				
 				new Waypoint(0, 0, 0),
-				new Waypoint(108, -50, 0),
+				new Waypoint(108, -43, 0),
 		};
 		
 		Waypoint waypoints3[] = new Waypoint[] {
@@ -47,7 +47,7 @@ public class Main {
 		Waypoint waypoints5[] = new Waypoint[] {
 				
 				new Waypoint(0, 0, 0),
-				new Waypoint(108, 50, 0),
+				new Waypoint(108, 57, 0),
 		};
 		
 		Waypoint waypoints6[] = new Waypoint[] {
@@ -63,7 +63,7 @@ public class Main {
 		
 		Waypoint waypoint7[] = new Waypoint[] {
 				new Waypoint(0, 0, 0),
-				new Waypoint(100, 0, 0),
+				new Waypoint(258, 0, 0),
 		};
 		
 		Waypoint waypoint8[] = new Waypoint[] {
@@ -76,7 +76,7 @@ public class Main {
 		
 		Waypoint waypoint9[] = new Waypoint[] {
 				new Waypoint(0, 0, 0),
-				new Waypoint(100, 0, 0),
+				new Waypoint(258, 0, 0),
 		};
 		
 		Waypoint waypoint10[] = new Waypoint[] {
